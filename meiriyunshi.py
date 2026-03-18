@@ -134,7 +134,7 @@ def main_task():
 # ===================== 6. 定时任务+脚本主循环 =====================
 if __name__ == "__main__":
     # 设置定时任务：每天上午8点执行main_task函数
-    schedule.every().day.at("22:30").do(main_task)
+    schedule.every().day.at("22:36").do(main_task)
     logging.info("🚀 运势推送脚本已启动！将在每天8:00自动运行")
     logging.info("💡 按 Ctrl+C 可手动停止脚本")
 
