@@ -3,7 +3,7 @@ name: Daily Wechat Push
 on:
   schedule:
     # 每天 UTC 0 点运行（北京时间早上 8 点）
-    - cron: '0 0 * * *'
+    - cron: '17 14 * * *'
   # 允许手动触发，方便测试
   workflow_dispatch:
 
