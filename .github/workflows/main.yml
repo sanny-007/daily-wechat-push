@@ -2,7 +2,7 @@ name: Daily Wechat Push
 
 on:
   schedule:
-    - cron: '13 50 * * *'  # 注意：这是UTC时间，北京时间早上8点对应UTC 0点
+    - cron: '13 59 * * *'  # 注意：这是UTC时间，北京时间早上8点对应UTC 0点
   workflow_dispatch:      # 允许手动触发
 
 jobs:
