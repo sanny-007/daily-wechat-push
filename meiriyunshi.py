@@ -101,7 +101,7 @@ if __name__ == "__main__":
         logging.info("✅ 脚本执行完毕，退出")
     else:
         # 本地运行：设置定时任务（每天 22:12 北京时间 = 14:12 UTC）
-        schedule.every().day.at("14:52").do(main_task)
+        schedule.every().day.at("0:02").do(main_task)
         logging.info("🚀 本地定时模式已启动，将在每天 22:12 自动运行")
         logging.info("💡 按 Ctrl+C 停止")
         try:
