@@ -63,6 +63,7 @@ def push_to_wechat(content):
     url = "https://www.pushplus.plus/send"
     push_data = {
         "token": PUSHPLUS_TOKEN,
+        "topic": "12211221",
         "title": f"毛爷爷碎碎念 🚀 {datetime.now().strftime('%Y-%m-%d')}",
         "content": content,
         "template": "txt"
